@@ -1,0 +1,31 @@
+{
+  "name": "bmc-updates-bot",
+  "version": "1.0.0-alpha.1",
+  "description": "Official open-source project for branded update Discord bot for Buy Me a Coffee Discord community server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarenGonzaga/bmc-updates-bot.git"
+  },
+  "keywords": [
+    "bmc",
+    "discord",
+    "bot",
+    "buy",
+    "me",
+    "a",
+    "coffee"
+  ],
+  "author": "Waren Gonzaga",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/WarenGonzaga/bmc-updates-bot/issues"
+  },
+  "homepage": "https://github.com/WarenGonzaga/bmc-updates-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.0"
+  }
+}
