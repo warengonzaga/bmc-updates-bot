@@ -1,0 +1,16 @@
+{
+  "prefix": "!",
+  "token": "",
+  "RSSFeedOfBlog": "https://www.buymeacoffee.com/library/rss/",
+  "WebhookRedditRSS": {
+    "id": "",
+    "token": ""
+  },
+  "colors" : {
+    "Primary": "#FFDD00",
+    "Secondary": "#00e6cb",
+    "Danger": "#B20000",
+    "Info": "#6897BB",
+    "Success": "#47b60f"
+  }
+}
