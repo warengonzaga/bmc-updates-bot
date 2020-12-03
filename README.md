@@ -90,7 +90,7 @@ BMC Update Discord Bot is licensed under GNU General Public License v3 - <https:
 
 ## Authors
 
-BMC Update Discord Bot is Developed and Maintained by **[Waren Gonzaga](https://bmc.xyz/warengonzaga)** and **[Thomas Bnt](bmc.xyz/thomasbnt)** with the help of awesome [project contributors](https://github.com/WarenGonzaga/bmc-updates-bot/graphs/contributors).
+BMC Update Discord Bot is Developed and Maintained by **[Waren Gonzaga](https://bmc.xyz/warengonzaga)** and **[Thomas Bnt](https://buymeacoffee.com/thomasbnt/?via=thomasbnt)** with the help of awesome [project contributors](https://github.com/WarenGonzaga/bmc-updates-bot/graphs/contributors).
 
 ---
 
