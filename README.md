@@ -47,6 +47,13 @@ You can add yourself with replace _IDBOT_ by an ID of your bot.
 
 https://discord.com/api/oauth2/authorize?client_id=IDBOT&permissions=117760&scope=bot
 
+
+## Todo
+- [ ] RSS Feed for Blog
+- [ ] Twitter Feed
+- [ ] Facebook Feed
+- [ ] Instagram Feed 
+
 ## Related Projects
 
 - _[buymeacoffee.js](https://github.com/warengonzaga/buymeacoffee.js)_
