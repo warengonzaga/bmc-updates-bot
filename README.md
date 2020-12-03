@@ -57,7 +57,8 @@ https://discord.com/api/oauth2/authorize?client_id=IDBOT&permissions=117760&scop
 
 ## Contributing
 
-Contributions are welcome, create a pull request to this repo and I will review your code. Please consider to submit your pull request to the ```dev``` branch. Thank you!
+Contributions are welcome, create a pull request to this repository and I will review your code. Please consider to submit your pull request to the ```dev``` branch. Thank you ! 
+Don't forget to read and follow the [contribution guidelines](contributing.md) and [code of conduct](code-of-conduct.md) first. 
 
 ## Issues
 
@@ -65,15 +66,22 @@ Contributions are welcome, create a pull request to this repo and I will review 
 
 ## Community
 
-Join to the official Buy Me a Coffee Discord community server!
-
-[![BMC Community](https://discordapp.com/api/guilds/750619856130539572/widget.png?style=banner3)](https://discord.gg/GFBQvyEJ98)
+<table align="center">
+    <tr>
+        <td align="center">
+            <a href="https://discord.gg/GFBQvyEJ98"><img src="https://discordapp.com/api/guilds/750619856130539572/widget.png?style=banner3" alt="Official BMC Discord Server"></a>
+        </td>
+        <td align="center">
+            Join to the official Buy Me a Coffee Discord community server!
+        </td>
+    </tr>
+</table>
 
 ## License
 
 BMC Update Discord Bot is licensed under GNU General Public License v3 - <https://opensource.org/licenses/GPL-3.0>
 
-## Author
+## Authors
 
 BMC Update Discord Bot is Developed and Maintained by **[Waren Gonzaga](https://bmc.xyz/warengonzaga)** and **[Thomas Bnt](bmc.xyz/thomasbnt)** with the help of awesome [project contributors](https://github.com/WarenGonzaga/bmc-updates-bot/graphs/contributors).
 
