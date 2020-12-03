@@ -1,9 +1,11 @@
+import {DMChannel} from "discord.js";
+
 const Discord = require('discord.js')
 const config = require('./config.json')
 const Turndown = require('turndown')
 
 const truncate = function (str, length, ending) {
-    if (length == null) {length = 2000}
+    if (length == null) {length = 2000} /* The limit of description characters is 2048. https://discord.com/developers/docs/resources/channel#embed-limits-limits */
     if (ending == null) {ending = '...'}
     if (str.length > length) {
         return str.substring(0, length - ending.length) + ending
@@ -21,7 +23,7 @@ const Watcher  = require('feed-watcher'),
 const watcher = new Watcher(feed, interval)
 
 const client = new Discord.Client({
-    autoReconnect: true
+    fetchAllMembers: true
 })
 
 // ---------------------- Ready ----------------------
@@ -56,7 +58,7 @@ client.on('ready', async ()  =>  {
 client.on('message', (msg) => { 
 
     if (msg.author.client) return
-    if(msg.channel.recipient) return
+    if (msg.channel.type.dm) return
 
 })
 
