@@ -22,7 +22,9 @@ cd bmc-updates-bot
 npm i
 ```
 Or use `yarn`.
+
 2. Edit the `config.example.json` and rename to `config.json`.
+
 3. You can start your script with `npm start` or directly with `node app.js`.
 
 ### On a server
@@ -33,8 +35,11 @@ cd bmc-updates-bot
 npm i
 ```
 Or use `yarn`.
+
 2. Edit the `config.example.json` and rename to `config.json`.
+
 3. Install **pm2** on your server with `npm i -g pm2`.
+
 4. Start your script with `pm2 start app.js --name mybot`. ([See the documentation](https://pm2.keymetrics.io/docs/usage/quick-start/))
 You can leave the CLI and your bot run anytime.
 
@@ -49,7 +54,7 @@ https://discord.com/api/oauth2/authorize?client_id=IDBOT&permissions=117760&scop
 
 
 ## Todo
-- [ ] RSS Feed for Blog
+- [ ] RSS Feed for Blog (Issue created at https://github.com/WarenGonzaga/bmc-updates-bot/issues/1#issue-753679830)
 - [ ] Twitter Feed
 - [ ] Facebook Feed
 - [ ] Instagram Feed 
@@ -66,10 +71,6 @@ https://discord.com/api/oauth2/authorize?client_id=IDBOT&permissions=117760&scop
 
 Contributions are welcome, create a pull request to this repository and I will review your code. Please consider to submit your pull request to the ```dev``` branch. Thank you ! 
 Don't forget to read and follow the [contribution guidelines](contributing.md) and [code of conduct](code-of-conduct.md) first. 
-
-## Issues
-
-...
 
 ## Community
 
