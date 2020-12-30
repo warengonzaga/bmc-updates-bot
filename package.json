@@ -1,6 +1,6 @@
 {
   "name": "bmc-updates-bot",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-beta.1",
   "description": "Official open-source project for branded update Discord bot for Buy Me a Coffee Discord community server.",
   "main": "app.js",
   "scripts": {
