@@ -2,3 +2,4 @@ node_modules
 *.txt
 *.logs
 config.json
+*.code-workspace
