@@ -1,11 +1,14 @@
-import {DMChannel} from "discord.js";
-
 const Discord = require('discord.js')
 const config = require('./config.json')
 const Turndown = require('turndown')
 
 const truncate = function (str, length, ending) {
     if (length == null) {length = 2000} /* The limit of description characters is 2048. https://discord.com/developers/docs/resources/channel#embed-limits-limits */
+    /*
+    Two way for the RSS feed of BMC
+    https://www.buymeacoffee.com/library/rss
+    https://blog.buymeacoffee.com/feed
+     */
     if (ending == null) {ending = '...'}
     if (str.length > length) {
         return str.substring(0, length - ending.length) + ending
